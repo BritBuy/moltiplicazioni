@@ -5,6 +5,8 @@ document.getElementById("question").innerHTML = "Quanto fa " + int1 + " x " + in
 function modify() {
     document.getElementById("question").style.display = "none";
     document.getElementById("insert").style.display = "block";
+    document.getElementById("question").style.display = "none";
+    document.getElementById("insert").style.display = "block";
     document.getElementById("game2").innerHTML = "Salva modifiche";
 }
 function ok() {
